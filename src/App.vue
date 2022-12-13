@@ -1,6 +1,9 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
 import TheHeader from './components/TheHeader.vue'
+import TheFooter from './components/TheFooter.vue'
+
+components: {TheHeader, TheFooter}
 </script>
 
 <template>
@@ -14,6 +17,7 @@ import TheHeader from './components/TheHeader.vue'
     </a>
   </div>
   <HelloWorld msg="Dale Andrecito" />
+  <TheFooter />
 </template>
 
 <style scoped>
