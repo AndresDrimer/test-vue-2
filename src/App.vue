@@ -2,19 +2,20 @@
 import HelloWorld from './components/HelloWorld.vue'
 import TheHeader from './components/TheHeader.vue'
 import TheFooter from './components/TheFooter.vue'
+import {ref} from 'vue'
 
 components: {TheHeader, TheFooter}
+
+
 </script>
 
 <template>
   <div>
     <TheHeader />
     <a href="https://vitejs.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
+      <img src="./assets/Screenshot (1) gafas.png" class="logo" alt="imagen random" />
     </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
+   
   </div>
   <HelloWorld msg="Dale Andrecito" />
   <TheFooter />
