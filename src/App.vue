@@ -13,7 +13,7 @@ components: {TheHeader, TheFooter}
   <div>
     <TheHeader />
     <a href="https://vitejs.dev" target="_blank">
-      <img src="./assets/Screenshot (1) gafas.png" class="logo" alt="imagen random" />
+      <img src="./assets/Screenshot-gafas.png" class="logo" alt="imagen random" />
     </a>
    
   </div>
